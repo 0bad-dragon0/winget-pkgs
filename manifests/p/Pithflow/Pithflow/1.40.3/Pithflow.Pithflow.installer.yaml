@@ -1,0 +1,20 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
+
+PackageIdentifier: Pithflow.Pithflow
+PackageVersion: 1.40.3
+MinimumOSVersion: 10.0.0.0
+InstallerType: nullsoft
+InstallModes:
+- interactive
+- silent
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+UpgradeBehavior: install
+ReleaseDate: 2026-10-02
+Installers:
+- Architecture: x64
+  InstallerUrl: https://pithflow.com/downloads/Pithflow_1.40.3_x64-setup.exe
+  InstallerSha256: 95263C3AC1E7411340D4B88C7DCFACADD646BFD7A0E04BEE6F2FF2D2CAA524E7
+ManifestType: installer
+ManifestVersion: 1.12.0
